@@ -1,0 +1,35 @@
+/*lang*/
+
+.lng-panel {
+    padding: 0 2em .5em 0;
+    font-size:  14px;
+    text-transform:  uppercase;
+    height:100%;
+}
+
+.active-lng {
+    color: #e08524;
+}
+
+.current-lng {
+    cursor: default;
+}
+
+.current-lng:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width : 845px) {
+    .lng-panel {
+        font-size:  12px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .lng-panel {
+        position: absolute;
+        top: 18px;
+        left: 50%;
+        height: auto;
+    }
+}

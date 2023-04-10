@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>Shanti SPA Онлайн-заказ массажа на дом в Севастополе</title>
+    <meta name="description"
+        content="Удобный способ заказа массажа на дом. Классический, спортивный, антицеллюлитный или лифмодренажный уходы - настоящая забота о своем теле. Закажите массажиста на дом и получите качественный отдых без лишних временных и денежных затрат.">
+    <link href="assets/images/m1.png" rel="shortcut icon">
+    <link href="assets/styles/app.min.css" rel="stylesheet">
+    <link href="assets/styles/style.css" rel="stylesheet">
+    <script src="assets/scripts/libs/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="header-menu">
+        <div class="header-menu__section-head">
+            <div class="container">
+                <nav class="header-nav"><button class="header-nav__burger js-toggle js-unfreeze menu-closed">
+                        <p class="visually-hidden">Меню сайта</p>
+                    </button>
+                    <ul class="header-menu-list visually-hidden">
+                        <li class="header-menu-list__item header-menu-list__item_about"><a
+                                class="header-menu-list__link" href="aboutw/index.html">О Shanti SPA</a></li>
+                        <li class="header-menu-list__item header-menu-list__item_types"><a
+                                class="header-menu-list__link js-anchor" href="#types">Типы массажа</a></li>
+                        <li class="header-menu-list__item header-menu-list__item_prices"><a
+                                class="header-menu-list__link js-anchor" href="#prices">Цены</a></li>
+                        <li class="header-menu-list__item header-menu-list__item_specs"><a
+                                class="header-menu-list__link js-anchor" href="#masseur">Специалисты</a></li>
+                        <li class="header-menu-list__item header-menu-list__item_reviews"><a
+                                class="header-menu-list__link js-anchor" href="#reviews">Отзывы</a></li>
+                        <li class="header-menu-list__item header-menu-list__item_faq"><a
+                                class="header-menu-list__link js-anchor" href="#faq">FAQ</a></li>
+                    </ul>
+                    <a class="link link_icon header-nav__logo" href='index.html'><img class='link__icon'
+                            src='images/logo_shanti-SPA-transformed.png'></a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__section-head">
+            <div class="container">
+                <div class="header-content">
+                    <h1 class="header-content__text header-content__text_top">Сервис онлайн-заказа массажа в Севастополе
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="advantages">
+        <div class="advantages__section-head">
+            <div class="container">
+                <div class="advantages-content">
+                    <h2 class="advantages-content__title">Как это работает</h2>
+                    <ul class="advantages-content-list">
+                        <li
+                            class="advantages-content-list__item advantages-content-list__item advantages-content-list__item_comfort">
+                            <h2 class="advantages-content-list__item-title">Удобно</h2>
+                            <p class="advantages-content-list__item-text">Закажите первоклассный массаж за считанные
+                                секунды на сайте</p>
+                        </li>
+                        <li
+                            class="advantages-content-list__item advantages-content-list__item advantages-content-list__item_pro">
+                            <h2 class="advantages-content-list__item-title">Профессионально</h2>
+                            <p class="advantages-content-list__item-text">Сертифицированный и опытный мастер предоставит
+                                вам место для сеанса или приедет к вам со столом, полотенцами и маслами</p>
+                        </li>
+                        <li
+                            class="advantages-content-list__item advantages-content-list__item advantages-content-list__item_cosy">
+                            <h2 class="advantages-content-list__item-title">Приятно</h2>
+                            <p class="advantages-content-list__item-text">Получайте удовольствие от&nbsp;массажа, где
+                                вам удобно,&nbsp;7 дней в неделю с 09.00 до 21.00, 365 дней в году</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="type-slider">
+        <div class="type-slider__section-head">
+            <div class="container">
+                <div class="order-now">
+                    <h1>Заказать массаж</h1>
+                    <div class="price-wrapper">
+                        <p class="order-now__text">Скидка на первый заказ</p>
+                        <p class="order-now__discount">200 руб.</p>
+                    </div>
+                    <button class="button order-now__btn order-btn call main-button">Заказать</button>
+                </div>
+
+                <div class="main-popup">
+                    <div class="overlay"></div>
+                    <div class="popup">
+                        <div class="popup-close-btn"></div>
+                        <div class="popup-content"></div>
+                    </div>
+
+                    <div class="for-call-popup">
+                        <form class="call-popup">
+                            <h3>Выберете адрес</h3>
+                            <a class="button order-now__btn order-btn" href="https://dikidi.net/963750">
+                                <p>Острякова 227г</p>
+                            </a>
+                            <a class="button order-now__btn order-btn" href="https://dikidi.net/973256">
+                                <p>Шевченко 26</p>
+                            </a>
+                            <p class="phone">Телефон: 
+                                <a href="tel:+79785099898">+7(978) 509-98-98</a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-wrapper" id="types">
+            <div class="container">
+                <div class="wrapper-title">
+                    <h2 class="type-slider__title">Типы массажа</h2>
+                </div>
+                <div class="slider swiper-container js-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider__slide js-classic">
+                                <div class="type-slide-wrapper type-slide-wrapper_classic js-classic">
+                                    <p class="slider__text">Классический</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__slide js-sport">
+                                <div class="type-slide-wrapper type-slide-wrapper_sport js-sport">
+                                    <p class="slider__text">Спортивный</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__slide js-limfo">
+                                <div class="type-slide-wrapper type-slide-wrapper_limfo js-limfo">
+                                    <p class="slider__text">Лимфодренажный</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__slide js-anti">
+                                <div class="type-slide-wrapper type-slide-wrapper_anti js-anti">
+                                    <p class="slider__text">Антицеллюлитный</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__slide js-stress">
+                                <div class="type-slide-wrapper type-slide-wrapper_stress js-stress">
+                                    <p class="slider__text">Антистрессовый</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__button slider__button_prev"></div>
+                    <div class="slider__button slider__button_next"></div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-question">
+            <div class="container">
+                <div class="wrapper-question-title wrapper-question-title_sport js-sport">
+                    <h2 class="type-slider__question">Имеете дело с высокими нагрузками?</h2>
+                </div>
+                <div class="wrapper-question-title wrapper-question-title_anti visually-hidden js-anti">
+                    <h2 class="type-slider__question">Любите впечатлять?</h2>
+                </div>
+                <div class="wrapper-question-title wrapper-question-title_limfo visually-hidden js-limfo">
+                    <h2 class="type-slider__question">Заботитесь о здоровье и красоте?</h2>
+                </div>
+                <div class="wrapper-question-title wrapper-question-title_stress visually-hidden js-stress">
+                    <h2 class="type-slider__question">Устали от работы и мечтаете про отдых?</h2>
+                </div>
+                <div class="wrapper-question-title wrapper-question-title_classic visually-hidden js-classic">
+                    <h2 class="type-slider__question">Высоко цените время?<br />Некогда отдохнуть?</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="types">
+        <div class="types__section-head">
+            <div class="container">
+                <ul class="answers answers answers_sport js-sport">
+                    <li class="answers__item answers__item answers__item_energy">
+                        <p class="answers__text">Восстановит энергию и даст силы для новых рекордов</p>
+                    </li>
+                    <li class="answers__item answers__item answers__item_relax">
+                        <p class="answers__text">Снимет напряжение и расслабит тело</p>
+                    </li>
+                    <li class="answers__item answers__item answers__item_plan">
+                        <p class="answers__text">Удобно планировать и совмещать с тренировками</p>
+                    </li>
+                </ul>
+                <ul class="answers answers answers_anti visually-hidden js-anti">
+                    <li class="answers__item answers__item answers__item_care">
+                        <p class="answers__text">Прекрасный уход для тела и души</p>
+                    </li>
+                    <li class="answers__item answers__item answers__item_skin">
+                        <p class="answers__text">Улучшает состояние кожи</p>
+                    </li>
+                    <li class="answers__item answers__item answers__item_special">
+                        <p class="answers__text">Уничтожает целюлит</p>
+                    </li>
+                </ul>
+                <ul class="answers answers answers_limfo visually-hidden js-limfo">
+                    <li class="answers__item answers__item answers__item_skin">
+                        <p class="answers__text">Убирает отеки</p>
+                    </li>
+                    <li class="answers__item answers__item answers__item_problem">
+                        <p class="answers__text">Воздействует на проблемные участки фигуры</p>
+                    </li>
+                    <li class="answers__item answers__item answers__item_special">
+                        <p class="answers__text">Улучшает состояние кожи</p>
+                    </li>
+                </ul>
+                <ul class="answers answers answers_stress visually-hidden js-stress">
+                    <li class="answers__item answers__item answers__item_idea">
+                        <p class="answers__text">Повысит работоспособность</p>
+                    </li>
+                    <li class="answers__item answers__item answers__item_head">
+                        <p class="answers__text">Расслабит тело</p>
+                    </li>
+                    <li class="answers__item answers__item answers__item_towel">
+                        <p class="answers__text">Снимет нервное напряжение</p>
+                    </li>
+                </ul>
+                <ul class="answers answers answers_classic visually-hidden js-classic">
+                    <li class="answers__item answers__item answers__item_refresh">
+                        <p class="answers__text">Восстановит силы и избавит от усталости</p>
+                    </li>
+                    <li class="answers__item answers__item answers__item_stress">
+                        <p class="answers__text">Разгрузит мысли и снимет стресс</p>
+                    </li>
+                    <li class="answers__item answers__item answers__item_place">
+                        <p class="answers__text">Когда и где вам удобно</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="order-wrapper">
+            <div class="container">
+                <div class="order order order_sport js-sport">
+                    <div class="img-wrapper js-sport"><img src="assets/images/order-now_desk.png"
+                            alt="заказать спортивный массаж" /></div>
+                    <div class="text-wrapper">
+                        <h2 class="order__title">Спортивный SPA Shanti</h2>
+                        <a class="order__button call" href="#">
+                            <p>Заказать</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="order order order_anti visually-hidden js-anti">
+                    <div class="img-wrapper visually-hidden js-anti"><img src="assets/images/3-call-to-act.png"
+                            alt="заказать антицеллюлитный массаж" /></div>
+                    <div class="text-wrapper">
+                        <h2 class="order__title">Антицеллюлитный SPA Shanti</h2>
+                        <a class="order__button call" href="#">
+                            <p>Заказать</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="order order order_limfo visually-hidden js-limfo">
+                    <div class="img-wrapper visually-hidden js-limfo"><img src="assets/images/4-call-to-act.png"
+                            alt="заказать лимфодренажный массаж" /></div>
+                    <div class="text-wrapper">
+                        <h2 class="order__title">Лимфодренажный SPA Shanti</h2>
+                        <a class="order__button call" href="#">
+                            <p>Заказать</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="order order order_limfo visually-hidden js-stress">
+                    <div class="img-wrapper visually-hidden js-stress"><img src="assets/images/5-call-to-act.png"
+                            alt="заказать антистрессовый массаж" /></div>
+                    <div class="text-wrapper">
+                        <h2 class="order__title">Антистрессовый SPA Shanti</h2>
+                        <a class="order__button call" href="#">
+                            <p>Заказать</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="order order order_classic visually-hidden js-classic">
+                    <div class="img-wrapper visually-hidden js-classic"><img
+                            src="assets/images/1-classic-call-to-act.png" alt="заказать классический массаж" /></div>
+                    <div class="text-wrapper">
+                        <h2 class="order__title">Классический SPA Shanti</h2>
+                        <a class="order__button call" href="#">
+                            <p>Заказать</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prices" id="prices">
+        <div class="prices__section-head">
+            <div class="container">
+                <div class="prices-wrapper">
+                    <h2 class="prices__title">Отличные цены</h2>
+                    <p class="prices__text prices__text prices__text_top">Массаж с Shanti SPA - это не только удобнее,
+                        но и дешевле, чем в салоне. Стоимость не зависит от выбранного вами типа
+                        массажа.</p>
+                    <ul class="prices-list">
+                        <li class="prices-list__item prices-list__item prices-list__item_60">
+                            <div class="li-wrapper">
+                                <p class="prices-list__item-time">60</p>
+                                <p class="prices-list__item-text">минут<br />1 700 ₽</p>
+                            </div>
+                        </li>
+                        <li class="prices-list__item prices-list__item prices-list__item_90">
+                            <div class="li-wrapper">
+                                <p class="prices-list__item-time">90</p>
+                                <p class="prices-list__item-text">минут<br />2 200 ₽</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="prices__text prices__text prices__text_bottom">Мы уверены в качестве услуг исполнителей!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="masseur" id="masseur">
+        <div class="container">
+            <div class="masseur-wrapper">
+                <h2 class="masseur__title">Наши массажисты</h2>
+                <div class="slider2-wrapper">
+                    <div class="slider2 swiper-container js-slider2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider2__slide">
+                                    <div class="masseur-slide-wrapper">
+                                        <div class="masseur-slide-heading">
+                                            <div class="rating-wrapper"><img src="assets/images/big-star.svg"
+                                                    alt="звезда" />
+                                                <p class="slider2__rating">4.9</p>
+                                            </div>
+                                            <img class="slider2__photo" src="assets/images/Ксения.JPG" alt="Ксения"
+                                                title="" />
+                                            <p class="slider2__name">Ксения</p>
+                                        </div>
+                                        <p class="slider2__qualify">Опыт работы более 2х лет.
+                                            <br />Сертификат специалиста более 200 ак. часов.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider2__slide">
+                                    <div class="masseur-slide-wrapper">
+                                        <div class="masseur-slide-heading">
+                                            <div class="rating-wrapper"><img src="assets/images/big-star.svg"
+                                                    alt="звезда" />
+                                                <p class="slider2__rating">4.8</p>
+                                            </div><img class="slider2__photo" src="assets/images/Нина.JPG"
+                                                alt="Нина" title="" />
+                                            <p class="slider2__name">Нина</p>
+                                        </div>
+                                        <p class="slider2__qualify">Мастер спорта по бодибилдингу, <br />Вице-чемпионка
+                                            России по бодифитнесу 2019г., <br />Спортивный нутрициолог и
+                                            фитнес-тренер<br />Сертификат специалиста более 200 ак. часов.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider2__slide">
+                                    <div class="masseur-slide-wrapper">
+                                        <div class="masseur-slide-heading">
+                                            <div class="rating-wrapper"><img src="assets/images/big-star.svg"
+                                                    alt="звезда" />
+                                                <p class="slider2__rating">4.8</p>
+                                            </div><img class="slider2__photo" src="assets/images/Мария.JPG"
+                                                alt="Мария" title="" />
+                                            <p class="slider2__name">Мария</p>
+                                        </div>
+                                        <p class="slider2__qualify">Опыт работы более года. <br />Сертификат специалиста более 200 ак.
+                                            часов.</p>
+                                        <!-- <p class="slider2__qualify">Мастер спорта по бодибилдингу, <br />Вице-чемпионка
+                                            России по бодифитнесу 2019г., <br />Спортивный нутрициолог и
+                                            фитнес-тренер<br />Сертификат специалиста более 200 ак. часов.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider2__slide">
+                                    <div class="masseur-slide-wrapper">
+                                        <div class="masseur-slide-heading">
+                                            <div class="rating-wrapper"><img src="assets/images/big-star.svg"
+                                                    alt="звезда" />
+                                                <p class="slider2__rating">5.0</p>
+                                            </div><img class="slider2__photo" src="assets/images/Севиль.PNG"
+                                                alt="Севиль" title="" />
+                                            <p class="slider2__name">Севиль</p>
+                                        </div>
+                                        <p class="slider2__qualify">Стаж работы более трёх лет и продолжает непрерывно совершенствовать свои знания. 
+                                            <br />Сертификат специалиста более 200 ак. часов.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider2__slide">
+                                    <div class="masseur-slide-wrapper">
+                                        <div class="masseur-slide-heading">
+                                            <div class="rating-wrapper"><img src="assets/images/big-star.svg"
+                                                    alt="звезда" />
+                                                <p class="slider2__rating">4.9</p>
+                                            </div><img class="slider2__photo" src="assets/images/Жора.jpg"
+                                                alt="Жора" title="" />
+                                            <p class="slider2__name">Жора</p>
+                                        </div>
+                                        <p class="slider2__qualify">Специалист со стажем 2 года.<br /> К каждому клиенту
+                                            имеет отдельный подход.<br /> Сертификат специалиста более 200 ак. часов.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider2__slide">
+                                    <div class="masseur-slide-wrapper">
+                                        <div class="masseur-slide-heading">
+                                            <div class="rating-wrapper"><img src="assets/images/big-star.svg"
+                                                    alt="звезда" />
+                                                <p class="slider2__rating">4.9</p>
+                                            </div><img class="slider2__photo" src="assets/images/Екатерина.PNG"
+                                                alt="Екатерина" title="" />
+                                            <p class="slider2__name">Екатерина</p>
+                                        </div>
+                                        <p class="slider2__qualify">Стаж работы более 3 лет,
+                                            <br /> работает в разных техниках но особенно любит гавайские. 
+                                            <br /> Сертификат специалиста более 200 ак. часов.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider2__button slider2__button_prev"></div>
+                        <div class="slider2__button slider2__button_next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <div class="reviews__section-head">
+            <div class="container">
+                <div class="reviews-wrapper">
+                    <div class="reviews-title-wrapper">
+                        <h2 class="reviews__title">Отзывы пользователей</h2>
+                    </div>
+                    <div class="slider3-wrapper">
+                        <div class="slider3 swiper-container js-slider3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slider3__slide">
+                                        <div class="slider3__item">
+                                            <div class="author-wrapper">
+                                                <p class="slider3__name">Анастасия Горбатенкова</p><img
+                                                    class="slider3__photo" src="assets/images/review_nastya.png"
+                                                    alt="Анастасия фото" title="" />
+                                                <p class="slider3__date">март 2022</p>
+                                            </div>
+                                            <p class="slider3__text">Я проходила курс в студии на Острякова, мне все
+                                                очень понравилось.
+                                                Всё на высшем уровне, после массажа сон был прекрасный.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider3__slide">
+                                        <div class="slider3__item">
+                                            <div class="author-wrapper">
+                                                <p class="slider3__name">Ева</p><img class="slider3__photo"
+                                                    src="assets/images/eva_desk.jpg" alt="Ева фото" title="" />
+                                                <p class="slider3__date">октябрь 2022</p>
+                                            </div>
+                                            <p class="slider3__text">Совершенно другое дело вызвать к себе
+                                                специалиста.... и после часового релакса ты остаешься в своем уютной
+                                                обстановке в мягенькой удобной одежде, продолжаешь кушать вкусняшки и
+                                                заваливаешься спать.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider3__slide">
+                                        <div class="slider3__item">
+                                            <div class="author-wrapper">
+                                                <p class="slider3__name">Анна</p><img class="slider3__photo"
+                                                    src="assets/images/review_anna.png" alt="Анна фото" title="" />
+                                                <p class="slider3__date">август 2022</p>
+                                            </div>
+                                            <p class="slider3__text">Согласитесь, всегда же здорово совместить домашний
+                                                привычный уют и spa-салон у себя дома. Особенно, когда после массажа ты
+                                                расслаблен и не нужно никуда ехать, толкаться в пробках. Это идеальное
+                                                решение для таких занятых людей, как я.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider3__slide">
+                                        <div class="slider3__item">
+                                            <div class="author-wrapper">
+                                                <p class="slider3__name">Матвей Зубалевич</p><img class="slider3__photo"
+                                                    src="assets/images/review_matvei.png" alt="Матвей фото" title="" />
+                                                <p class="slider3__date">май 2022</p>
+                                            </div>
+                                            <p class="slider3__text">В ритме нашего города тяжело бывает выделить время
+                                                на отдых и на самого себя. Собрать все свои мысли воедино мне помогает
+                                                Shanti SPA. Заказываю массаж прямо к себе домой, всегда приезжают очень
+                                                опытные мастера, поэтому я не отвлекаюсь на лишнее.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider3__slide">
+                                        <div class="slider3__item">
+                                            <div class="author-wrapper">
+                                                <p class="slider3__name">Алексей Шкрабов</p><img class="slider3__photo"
+                                                    src="assets/images/review_alex.jpg" alt="Алексей фото" title="" />
+                                                <p class="slider3__date">декабрь 2022</p>
+                                            </div>
+                                            <p class="slider3__text">Потрясающий сервис! Недавно вместе с девушкой
+                                                попробовали парный массаж, ей очень понравился такой подарок. Спасибо!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider3__button slider3__button_prev"></div>
+                            <div class="slider3__button slider3__button_next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq" id="faq">
+        <div class="faq__section-head">
+            <div class="container">
+                <div class="faq-wrapper">
+                    <h2 class="faq__title">FAQ</h2>
+                    <div class="acor-container">
+                        <input type="checkbox" name="chacor" id="chacor1" checked="checked" />
+                        <label for="chacor1">Как это работает?</label>
+                        <div class="acor-body">
+                            <p>Массажист предоставит место для сеанса или приедет по
+                                указанному адресу и привезет с собой все необходимое: массажный
+                                стол, масла и простыни. Вам остается только получать удовольствие от массажа.</p>
+                            <div class="accordion-info__location"><img src="assets/images/location.svg"
+                                    alt="иконка локации" />
+                                <p class="accordion-info__location-text">Сервис предоставляется в Севастополе
+                                </p>
+                            </div>
+                            <div class="accordion-info__time"><img src="assets/images/hourglass.svg"
+                                    alt="иконка часов работы" />
+                                <p class="accordion-info__time-text">c 9:00 до 21:00 без выходных</p>
+                            </div>
+                        </div>
+
+                        <input type="checkbox" name="chacor" id="chacor2" />
+                        <label for="chacor2">Могу ли я перенести или отменить свой
+                            заказ сеанса массажа?</label>
+                        <div class="acor-body">
+                            <p>Конечно, если по каким-то причинам вам стало неудобным
+                                выбранное вами время сеанса массажа,
+                                вы можете отменить ваш заказ и сделать новый на удобное время</p>
+                        </div>
+
+                        <input type="checkbox" name="chacor" id="chacor3" />
+                        <label for="chacor3">Могу ли я использовать свои масло и
+                            простыни?</label>
+                        <div class="acor-body">
+                            <p>Конечно! Просто сообщите об этом мастеру.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="footer__section-head">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer__logo"><a href="index.html"><img src="assets/images/m1.png" alt="логотип" /></a>
+                    </div>
+                    <nav class="footer-nav">
+                        <ul class="footer-menu">
+                            <li class="footer-menu__item footer-menu__item">
+                                <ul class="footer-submenu">
+                                    <li class="footer-submenu__item"><a class="footer-submenu__link"
+                                            href="aboutw/index.html">О Shanti
+                                            SPA</a></li>
+                                </ul>
+                            </li>
+                            <li class="footer-menu__item footer-menu__item footer-menu__item_second">
+                                <ul class="footer-submenu">
+                                    <li class="footer-submenu__item"><a class="footer-submenu__link"
+                                            href="contact/index.html">Контакты</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <p class="phone">+7(978) 509-98-98</p>
+                    </nav>
+
+                    <div class="legal">
+                        <div class="legal__top"><a class="legal__link"
+                                href="legal/user_agreement/index.html">Пользовательское соглашение</a><a
+                                class="legal__link" href="legal/confidential/index.html">Конфиденциальность</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/app.min.js"></script>
+
+    <script>
+        $(function () {
+            var p = new Popup({
+                popup: '.popup',
+                content: '.popup-content',
+                overlay: '.overlay',
+            });
+
+            $('.call').click(function () {
+                var form = $('.for-call-popup');
+                p.open(form.html());
+            });
+
+            $('.popup-close-btn').click(function () {
+                p.close();
+            });
+        });
+
+        function Popup(Obj) {
+            this.popup = $(Obj.popup);
+            this.content = $(Obj.content);
+            this.overlay = $(Obj.overlay);
+
+            var pop = this;
+
+            this.open = (function (content) {
+                pop.content.html(content);
+                pop.popup.addClass('open').fadeIn(1000);
+                pop.overlay.addClass('open');
+            });
+
+            this.close = (function () {
+                pop.popup.removeClass('open');
+                pop.overlay.removeClass('open');
+            });
+
+            this.overlay.click(function (e) {
+                if (!pop.popup.is(e.target) && pop.popup.has(e.target).length === 0) {
+                    pop.close();
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
